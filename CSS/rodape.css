@@ -26,6 +26,7 @@ hr {
     .rodape {
         display: flex;
         justify-content: space-around;
+        padding: 3em 0;
     }
     .rodape__titulo {
         font-family: var(--fonte-principal);
@@ -50,5 +51,12 @@ hr {
         text-decoration: none;
         color: var(--cinza);
         margin-left: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1.5em;
     }
 }

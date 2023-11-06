@@ -43,3 +43,13 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 30vw;
+    }
+
+    .topicos__link {
+        padding: 2em 3em;
+    }
+}
